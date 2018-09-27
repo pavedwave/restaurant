@@ -38,6 +38,6 @@ body {
     background-color: orangered
 }
 
-.btn-social-icon {
+.btn-social-icon:hover {
     background-color: black;
 } 
