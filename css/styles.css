@@ -9,7 +9,7 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #D1C4E9;
+  background-color: #b6544d;
   margin: 0px auto;
   padding: 20px 0px; }
 
@@ -17,7 +17,7 @@
   margin: 0px auto;
   padding: 70px 30px;
   background: background-light;
-  color: floralwhite; }
+  color: #fff4f0; }
 
 address {
   font-size: 80%;
@@ -28,8 +28,11 @@ body {
   padding: 50px 0px 0px 0px;
   z-index: 0; }
 
+.navbar-light {
+  background-color: #ac4133; }
+
 .navbar-dark {
-  background-color: #512DA8; }
+  background-color: #ac4133; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -38,7 +41,7 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: #512DA8; }
+  background: #ac4133; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {

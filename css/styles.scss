@@ -1,7 +1,8 @@
 $lt-gray: #ddd;
-$background-dark: #512DA8;
-$background-light: #9575CD;
-$background-pale: #D1C4E9;
+//$background-dark: #512DA8;
+$background-dark: rgb(172, 65, 51); 
+$background-light: rgb(172, 65, 51); 
+$background-pale: rgb(182, 84, 77);
 
 // Height variables
 $carousel-item-height: 300px;
@@ -29,7 +30,7 @@ $carousel-item-height: 300px;
 .jumbotron {
     @include zero-margin(70px, 30px);
     background: background-light;
-    color: floralwhite;
+    color:  rgb(255, 244, 240) 
 }
 
 address {
@@ -41,6 +42,10 @@ address {
 body {
     padding: 50px 0px 0px 0px;
     z-index: 0;
+}
+
+.navbar-light {
+    background-color: $background-light;
 }
 
 .navbar-dark {
@@ -60,12 +65,11 @@ body {
     .carousel-item {
         height: $carousel-item-height;
 
-        img {
-            position: absolute;
-            top: 0;
-            left: 0;
-            min-height: 300px;
-
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                min-height: 300px;
         }
     }
 }
