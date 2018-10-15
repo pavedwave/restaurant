@@ -9,15 +9,16 @@
   min-height: 400px; }
 
 .footer {
-  background-color: #b6544d;
+  background-color: #7b60d4;
   margin: 0px auto;
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  color: purple; }
 
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: background-light;
-  color: #fff4f0; }
+  background: #9575CD;
+  color: floralwhite; }
 
 address {
   font-size: 80%;
@@ -29,10 +30,10 @@ body {
   z-index: 0; }
 
 .navbar-light {
-  background-color: #ac4133; }
+  background-color: #D1C4E9; }
 
 .navbar-dark {
-  background-color: #ac4133; }
+  background-color: #512DA8; }
 
 .tab-content {
   border-left: 1px solid #ddd;
@@ -41,7 +42,7 @@ body {
   padding: 10px; }
 
 .carousel {
-  background: #ac4133; }
+  background: #512DA8; }
   .carousel .carousel-item {
     height: 300px; }
     .carousel .carousel-item img {
@@ -50,7 +51,26 @@ body {
       left: 0;
       min-height: 300px; }
 
+.carousel-caption {
+  margin-left: 200px;
+  margin-bottom: 40px; }
+
+.carousel-indicators {
+  margin-left: 400px; }
+
 #carouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px; }
+
+.modal-body {
+  background: #7b60d4; }
+
+.modal-title {
+  color: floralwhite; }
+
+.close {
+  color: floralwhite; }
+
+.modal-header {
+  background: #512DA8; }

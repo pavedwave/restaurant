@@ -1,8 +1,8 @@
 $lt-gray: #ddd;
-//$background-dark: #512DA8;
-$background-dark: rgb(172, 65, 51); 
-$background-light: rgb(172, 65, 51); 
-$background-pale: rgb(182, 84, 77);
+$background-dark: #512DA8;
+$background-light: #D1C4E9;
+$background-pale: rgb(123, 96, 212);  
+
 
 // Height variables
 $carousel-item-height: 300px;
@@ -25,12 +25,13 @@ $carousel-item-height: 300px;
 .footer {
     background-color: $background-pale;
     @include zero-margin(20px, 0px);
+    color: purple;
 }
 
 .jumbotron {
     @include zero-margin(70px, 30px);
-    background: background-light;
-    color:  rgb(255, 244, 240) 
+    background: #9575CD;
+    color: floralwhite;
 }
 
 address {
@@ -74,8 +75,33 @@ body {
     }
 }
 
+.carousel-caption {
+    margin-left: 200px;
+    margin-bottom: 40px;
+}
+
+.carousel-indicators {
+    margin-left: 400px;
+}
+
 #carouselButton {
     right: 0px;
     position: absolute;
     bottom: 0px;
+}
+
+.modal-body {
+    background: $background-pale;
+}
+
+.modal-title {
+    color: floralwhite;
+}
+
+.close {
+    color: floralwhite;
+}
+
+.modal-header {
+    background: $background-dark;
 }
